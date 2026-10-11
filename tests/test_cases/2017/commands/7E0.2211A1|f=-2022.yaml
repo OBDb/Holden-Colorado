@@ -1,0 +1,21 @@
+command_id: 7E0.2211A1|f=-2022
+test_cases:
+- expected_values:
+    HCOLORADO_RUNTM: 1689
+  response: |-
+    2211A11
+    7E8056211A10699
+- expected_values:
+    HCOLORADO_RUNTM: 0
+  response: 7E8056211A10000
+- expected_values:
+    HCOLORADO_RUNTM: 511
+  response: 7E8056211A101FF
+- expected_values:
+    HCOLORADO_RUNTM: 1566
+  response: |-
+    7E8056211A1061E
+    OK
+- expected_values:
+    HCOLORADO_RUNTM: 7316
+  response: 7E8056211A11C94

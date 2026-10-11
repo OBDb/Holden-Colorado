@@ -1,0 +1,49 @@
+command_id: 7E0.7E8.22000D|f=-2022
+test_cases:
+- expected_values:
+    HCOLORADO_VSS: 5
+  response: |-
+    22000D1
+    7E80462000D05
+- expected_values:
+    HCOLORADO_VSS: 7
+  response: |-
+    22000D1
+    7E80462000D07
+    7EA0462000D07
+- expected_values:
+    HCOLORADO_VSS: 0
+  response: 7E80462000D00
+- expected_values:
+    HCOLORADO_VSS: 0
+  response: |-
+    7E80462000D00
+    7EA0462000D00
+- expected_values:
+    HCOLORADO_VSS: 16
+  response: |-
+    7E80462000D10
+    7EA0462000D0F
+- expected_values:
+    HCOLORADO_VSS: 57
+  response: |-
+    7E80462000D39
+    OK
+- expected_values:
+    HCOLORADO_VSS: 255
+  response: 7E80462000DFF
+- expected_values:
+    HCOLORADO_VSS: 255
+  response: |-
+    7E80462000DFF
+    7EA0462000D00
+- expected_values:
+    HCOLORADO_VSS: 0
+  response: |-
+    7EA0462000D00
+    7E80462000D00
+- expected_values:
+    HCOLORADO_VSS: 255
+  response: |-
+    7EA0462000D00
+    7E80462000DFF
