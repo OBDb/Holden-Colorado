@@ -1,0 +1,12 @@
+references:
+  - "https://en.wikipedia.org/wiki/Chevrolet_Colorado"
+
+generations:
+  - name: "First Generation (RC)"
+    start_year: 2008
+    end_year: 2012
+    description: "A rebadged Isuzu D-Max sold in Australia."
+  - name: "Second Generation (RG)"
+    start_year: 2012
+    end_year: 2020
+    description: "The GM-developed global Colorado, with the 2.8 L Duramax diesel."
